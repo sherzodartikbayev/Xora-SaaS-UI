@@ -1,10 +1,10 @@
-import './App.css'
+import { Header } from './sections'
 
 const App = () => {
 	return (
-		<div className=''>
-			<h1 className='text-3xl font-bold underline'>SaaS UI</h1>
-		</div>
+		<main className='overflow-hidden'>
+      <Header />
+		</main>
 	)
 }
 
