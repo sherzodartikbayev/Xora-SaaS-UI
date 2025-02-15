@@ -1,4 +1,4 @@
-import { Features, Header, Hero } from './sections'
+import { Features, Header, Hero, Pricing } from './sections'
 
 const App = () => {
 	return (
@@ -6,6 +6,7 @@ const App = () => {
       <Header />
 			<Hero />
 			<Features />
+			<Pricing />
 		</main>
 	)
 }
