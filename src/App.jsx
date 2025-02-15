@@ -1,10 +1,11 @@
-import { Header, Hero } from './sections'
+import { Features, Header, Hero } from './sections'
 
 const App = () => {
 	return (
 		<main className='overflow-hidden'>
       <Header />
 			<Hero />
+			<Features />
 		</main>
 	)
 }
