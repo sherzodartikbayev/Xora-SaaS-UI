@@ -1,7 +1,6 @@
 import clsx from 'clsx'
+import { motion } from 'framer-motion'
 import { useState } from 'react'
-import SlideDown from 'react-slidedown'
-import 'react-slidedown/lib/slidedown.css'
 
 const FaqItem = ({ item, index }) => {
 	const [activeId, setActiveId] = useState(null)
@@ -39,11 +38,16 @@ const FaqItem = ({ item, index }) => {
 					<div className='g4 size-11/12 rounded-full shadow-300'></div>
 				</div>
 			</div>
-			<SlideDown>
-				{activeId === item.id && (
-					<div className='body-3 px-7 py-3.5'>{item.answer}</div>
-				)}
-			</SlideDown>
+
+			<motion.div
+				initial={{ height: 0, opacity: 0 }}
+				animate={{ height: active ? 'auto' : 0, opacity: active ? 1 : 0 }}
+				exit={{ height: 0, opacity: 0 }}
+				transition={{ duration: 0.3 }}
+				style={{ overflow: 'hidden' }}
+			>
+				{active && <div className='body-3 px-7 py-3.5'>{item.answer}</div>}
+			</motion.div>
 
 			<div
 				className={clsx(
