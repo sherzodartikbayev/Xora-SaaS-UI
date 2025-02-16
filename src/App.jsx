@@ -1,14 +1,23 @@
-import { Faq, Features, Header, Hero, Pricing, Testimonials } from './sections'
+import {
+	Download,
+	Faq,
+	Features,
+	Header,
+	Hero,
+	Pricing,
+	Testimonials,
+} from './sections'
 
 const App = () => {
 	return (
 		<main className='overflow-hidden'>
-      <Header />
+			<Header />
 			<Hero />
 			<Features />
 			<Pricing />
 			<Faq />
 			<Testimonials />
+			<Download />
 		</main>
 	)
 }
