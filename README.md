@@ -19,7 +19,7 @@ Xora SaaS UI is a modern and minimalist website built using React and TailwindCS
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/xora-saas-ui.git
+git clone [https://github.com/username/xora-saas-ui.git](https://github.com/sherzodartikbayev/Xora-SaaS-UI.git)
 ```
 
 ```bash
