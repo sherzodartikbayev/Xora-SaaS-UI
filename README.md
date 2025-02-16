@@ -28,10 +28,10 @@ git clone https://github.com/username/xora-saas-ui.git
 cd xora-saas-ui
 
 # Install dependencies
-yarn install  # or npm install
+npm install  # or yarn install
 
 # Start the development server
-yarn dev  # or npm run dev
+npm run dev  # or yarn dev
 ```
 
 ## 📄 License
