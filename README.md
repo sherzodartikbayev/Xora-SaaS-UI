@@ -1,8 +1,41 @@
-# React + Vite
+![Xora](https://github.com/user-attachments/assets/41babe07-ec41-4dc1-9a85-771c95d5b0b9)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Xora SaaS UI
 
-Currently, two official plugins are available:
+Xora SaaS UI is a modern and minimalist website built using React and TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+- **React** for UI development
+- **Tailwind CSS** for styling
+- **Clean and minimalistic design**
+- **Responsive and mobile-friendly layout**
+- **Fast performance and optimized code**
+
+## 🚀 Technologies Used
+- **React** — For building the UI
+- **Tailwind CSS** — For styling
+
+## 📸 Screenshots
+(Add screenshots here if available)
+
+## 🛠 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/username/xora-saas-ui.git
+
+# Navigate to the project directory
+cd xora-saas-ui
+
+# Install dependencies
+yarn install  # or npm install
+
+# Start the development server
+yarn dev  # or npm run dev
+```
+
+## 📄 License
+Distributed under the MIT License.
+
+---
+📩 For any questions or suggestions, feel free to open an issue or reach out!
