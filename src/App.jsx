@@ -2,6 +2,7 @@ import {
 	Download,
 	Faq,
 	Features,
+	Footer,
 	Header,
 	Hero,
 	Pricing,
@@ -18,6 +19,7 @@ const App = () => {
 			<Faq />
 			<Testimonials />
 			<Download />
+			<Footer />
 		</main>
 	)
 }
